@@ -105,4 +105,22 @@ footer p{
     text-align: center;
     color:white;
 }
+
+p{
+    margin:.5rem;
+    font-size: .85rem;
+    padding-bottom: .5rem;
+}
+
+.info{
+    padding-bottom: .5rem;
+}
+  
+h2{
+    color: #323335;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin:.5rem;
+    padding-bottom: .65rem;
+    
     

@@ -146,3 +146,28 @@ h2{
          margin: 1.3rem;
      }
  }   
+
+@media only screen and (min-width:46.5em){
+    
+    h1{
+        font-size: 4em;
+        bottom: 38%;
+    }
+    h3{
+        font-size: 1.2em;
+    }
+    main{
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+    h2{
+        font-size: 1.9rem;
+    }
+    .icons img{
+        width:80px;
+        margin: 1rem;
+    }
+}
+
+@media only screen and (min-width:77em){

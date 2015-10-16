@@ -66,6 +66,10 @@ h3{
     color: white;
 }
 
+.card{
+    display: none;
+}
+
 .background{
     background-color: #323335;
     height: 100%;
@@ -197,3 +201,29 @@ h2{
          margin: 1.3rem;
      }
 }  
+
+@media print{
+    img{
+        display:none;
+    }
+    footer{
+        display:none;
+    }
+    header{
+        display:none;
+    }
+    main{
+        display:none;
+    }
+    .card{ 
+        display:block;
+        width:335px;
+        height:190px;
+        border:3px solid;
+        clear: both;
+        margin:2.8em auto;
+        padding: .34em;
+        text-align: center;
+  }
+    
+}

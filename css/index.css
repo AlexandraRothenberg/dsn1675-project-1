@@ -89,12 +89,12 @@ ul{
     padding:0;
 }
 
-il{ 
+li{ 
+    display:inline-block;
     margin-top: 1rem;
 }
 
 a{
-    display:inline-block;
     text-decoration: none;
     color: #000;
     margin: 0;
